@@ -1,10 +1,64 @@
-body {
-  padding: 0;
-  margin: 0;
+/* Set the size of the map container */
+#mapid {
+  height: 500px;
 }
 
-#map,
-body,
-html {
-  height: 100%;
+/* Style the legend */
+.info.legend {
+  background: #fff;
+  padding: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.info.legend h4 {
+  margin-top: 0;
+}
+
+.info.legend i {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-right: 8px;
+  opacity: 0.8;
+}
+
+/* Define colors for the legend */
+.info.legend i:nth-child(1) {
+  background: #ffeda0;
+}
+
+.info.legend i:nth-child(2) {
+  background: #feb24c;
+}
+
+.info.legend i:nth-child(3) {
+  background: #f03b20;
+}
+
+.info.legend i:nth-child(4) {
+  background: #bd0026;
+}
+
+/* Style popups */
+.leaflet-popup-content-wrapper {
+  background-color: #fff;
+  color: #333;
+  font-size: 14px;
+  line-height: 1.5;
+  border-radius: 5px;
+}
+
+.leaflet-popup-tip {
+  background-color: #fff;
+  border-top-color: #fff;
+  border-bottom-color: #fff;
+}
+
+.leaflet-popup-content {
+  margin: 10px;
+}
+
+.leaflet-popup-content b {
+  font-weight: bold;
 }
