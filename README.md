@@ -1,4 +1,5 @@
 # leaflet-challenge
+![Earthquake map screenshot](https://user-images.githubusercontent.com/115750417/232190280-e63d741c-ac12-4fae-b97d-1282f9e16dc1.png)
 Create an Earthquake Visualization
 
 The USGS provides earthquake data in a number of different formats, updated every 5 minutes. Visit the USGS GeoJSON FeedLinks to an external site. page and choose a dataset to visualize.
